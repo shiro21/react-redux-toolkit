@@ -1,0 +1,23 @@
+.posts_list_wrap {
+    > h2 {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .posts_list {
+        margin: 2rem;
+        box-sizing: border-box;
+        .posts_wrap {
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border: 1px solid #DDD;
+            border-radius: 16px;
+            > h2 {
+                font-size: 1.5rem;
+                font-weight: bold;
+            }
+            > p {
+                font-size: 1rem;
+            }
+        }
+    }
+}
